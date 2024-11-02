@@ -1,7 +1,6 @@
 <h1 align="center"> Projeto Perfil WebDesigner </h1>
 
-<p>Criação de website para atividade Final da materia</p>
-<p>Desenvolvimento Web Front-End</p>
+<p>Criação de website para atividade Final da materia: Desenvolvimento Web Front-End</p>
 
 #🚀Tecnologias
 
