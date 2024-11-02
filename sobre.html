@@ -7,6 +7,17 @@
     <link rel="shortcut icon" href="imagem/letra-f.png">
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script>
+        function displayDateTime() 
+        { 
+            var now = new Date(); 
+            var datetime = now.toLocaleString(); 
+            document.getElementById("datetime").innerHTML = datetime; 
+        } 
+        setInterval(displayDateTime, 1000); // Atualiza a cada 1 segundo (1000 milissegundos)
+    </script>
 </head>
 <body>
     <header class="w-100">
@@ -33,7 +44,8 @@
         </main>
     </div>
     <footer class="text-center mt-4">
-        &copy; Fernando Souza Cardoso
+        &copy; Fernando Souza Cardoso <i class="fa fa-github" style="font-size:24px"></i>
+        <p id="datetime"></p> <!-- Aqui a data e hora serão exibidas -->
     </footer>
     <script src="bootstrap/js/jquery.min.js"></script>
     <script src="bootstrap/js/popper.min.js"></script>
