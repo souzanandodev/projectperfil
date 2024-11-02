@@ -1,12 +1,12 @@
 <h1 align="center"> Projeto Perfil WebDesigner </h1>
 
-<p>Desenvolvimento de website como perfil profisional de Web Developer</p>
+<p>Criação de website para atividade Final da materia</p>
+<p>Desenvolvimento Web Front-End</p>
 
 #🚀Tecnologias
 
 Este projeto, em desenvolvimento, em questão, tem o uso das seguintes linguagem/tecnologias:
 
-- HTML e CSS
+- HTML, CSS, JAVASCRIPT E BOOTSTRAP
 - GIT e GITHUB
-- FIGMA
 - VS CODE
