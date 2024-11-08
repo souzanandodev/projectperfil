@@ -16,10 +16,7 @@ nav {
     margin: 0;
     width: 100%;
 }
-nav .nav-link { 
-    color: white !important;
-}
-ul {
+ul.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -27,18 +24,26 @@ ul {
     background-color: gray;
     border-radius: 0 0 12px 12px;
 }
-li {
+ul.custom-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+}
+li.nav-item {
     float: left;
 }
-li a {
+li a.nav-link {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-li a:hover {
+li a.nav-link:hover {
     background-color: #111;
+}
+li.custom-list-item {
+    margin: 5px 0;
 }
 .custom-section {
     padding: 20px;

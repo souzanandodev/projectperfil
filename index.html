@@ -22,37 +22,54 @@
             <li class="nav-item">
                 <a class="nav-link" href="sobre.html">Sobre</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contato">Contato</a>
-            </li>
         </ul>
     </nav>
     <div class="container-fluid">
         <main>
             <section class="custom-section">
-                <p>Este é um pequeno conteúdo sobre a atividade acadêmica. Estou empenhado em realizar a atividade final da matéria.</p>
+                <h1>Bem-vindo ao Curso de Pós-Graduação Lato Sensu em Desenvolvimento Web</h1>
+                <p>
+                    O curso de Pós-Graduação Lato Sensu em Desenvolvimento Web foi projetado para capacitar profissionais nas mais modernas tecnologias e metodologias de criação e manutenção de sites e aplicativos para a internet. O programa abrange uma ampla gama de tópicos, incluindo:
+                </p>
+                <ul class="custom-list">
+                    <li class="custom-list-item">HTML, CSS e JavaScript</li>
+                    <li class="custom-list-item">Desenvolvimento Front-End e Back-End</li>
+                    <li class="custom-list-item">Uso de Frameworks e bibliotecas modernas</li>
+                    <li class="custom-list-item">Banco de dados relacionais e não relacionais</li>
+                    <li class="custom-list-item">Metodologias ágeis e práticas de DevOps</li>
+                    <li class="custom-list-item">Boas práticas de desenvolvimento</li>
+                </ul>
+                <p>
+                    O curso é ideal para profissionais que desejam se especializar na área de desenvolvimento web, adquirir novas habilidades e se destacar no mercado de trabalho. Com um corpo docente composto por especialistas do setor, o programa oferece uma combinação equilibrada de teoria e prática, preparando os alunos para os desafios reais do desenvolvimento web.
+                </p>
+                <p>
+                    Ao final do curso, os alunos estarão aptos a desenvolver soluções web robustas e escaláveis, utilizando as melhores práticas do mercado. Este curso é uma excelente oportunidade para quem busca uma carreira dinâmica e em constante evolução na área de tecnologia.
+                </p>
             </section>
         </main>
     </div>
-    <footer class="text-center mt-4">
-        &copy; Fernando Souza Cardoso <i class="fa fa-github" style="font-size:36px"></i>
+    <footer class="text-center mt-4"> 
+        &copy; Fernando Souza Cardoso 
+        <a href="https://github.com/souzanandodev" target="_blank" style="color: black; text-decoration: none;"> 
+            <i class="fa fa-github" style="font-size:36px"></i> 
+        </a> 
         <div id="datetime" class="text-right p-2"></div>
     </footer>
     <script src="bootstrap/js/jquery.min.js"></script>
     <script src="bootstrap/js/popper.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script>
-        // Função para exibir data e hora 
-        function updateDateTime() 
-        { 
-            const now = new Date(); const datetimeElement = document.getElementById('datetime'); 
-            datetimeElement.innerText = now.toLocaleString('pt-BR'); 
+        // Função para exibir data e hora
+        function updateDateTime() {
+            const now = new Date();
+            const datetimeElement = document.getElementById('datetime');
+            datetimeElement.innerText = now.toLocaleString('pt-BR');
         }
         
-        // Atualizar data e hora a cada segundo 
+        // Atualizar data e hora a cada segundo
         setInterval(updateDateTime, 1000);
         
-        // Chamada Inicial
+        // Chamada inicial
         updateDateTime();
     </script>
 </body>
