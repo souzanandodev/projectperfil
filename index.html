@@ -51,10 +51,32 @@
                     Tecnologia Usada
                 </p>
                 <hr class="border border-danger border-2 opacity-50">
-                </br>
-                <span class="shadow p-3 mb-5 bg-body rounded">HTML 5</span>
-                <span class="shadow p-3 mb-5 bg-body rounded">CSS</span>
-                <span class="shadow p-3 mb-5 bg-body rounded">BOOTSTRAP</span>
+                <div class="d-flex justify-content-around mb-2">
+                    <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#htmlConcept" aria-expanded="false" aria-controls="htmlConcept">
+                        HTML
+                    </button>
+                    <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#cssConcept" aria-expanded="false" aria-controls="cssConcept">
+                        CSS
+                    </button>
+                    <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#bootstrapConcept" aria-expanded="false" aria-controls="bootstrapConcept">
+                        Bootstrap
+                    </button>
+                </div>
+                <div class="collapse mt-3" id="htmlConcept">
+                    <div class="card card-body">
+                        HTML (HyperText Markup Language) é a linguagem padrão para criar páginas web. Com HTML, você pode criar e estruturar seções, parágrafos, links e blocos de conteúdo para a web.
+                    </div>
+                </div>
+                <div class="collapse mt-3" id="cssConcept">
+                    <div class="card card-body">
+                        CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada para descrever a apresentação de documentos escritos em HTML ou XML. O CSS define como os elementos HTML devem ser exibidos.
+                    </div>
+                </div>
+                <div class="collapse mt-3" id="bootstrapConcept">
+                    <div class="card card-body">
+                        Bootstrap é um framework front-end que facilita o desenvolvimento de websites e aplicações web responsivas, utilizando HTML, CSS e JavaScript.
+                    </div>
+                </div>
             </section>
         </main>
     </div>
@@ -65,21 +87,18 @@
         </a> 
         <div id="datetime" class="text-right p-2"></div>
     </footer>
-    <script src="bootstrap/js/jquery.min.js"></script>
-    <script src="bootstrap/js/popper.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script>
-        // Função para exibir data e hora
         function updateDateTime() {
             const now = new Date();
             const datetimeElement = document.getElementById('datetime');
             datetimeElement.innerText = now.toLocaleString('pt-BR');
         }
         
-        // Atualizar data e hora a cada segundo
         setInterval(updateDateTime, 1000);
         
-        // Chamada inicial
         updateDateTime();
     </script>
 </body>
