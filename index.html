@@ -17,16 +17,16 @@
     <nav class="w-100">
         <ul class="nav nav-pills justify-content-center mb-0">
             <li class="nav-item">
-                <a class="nav-link" href="index.html">Principal</a>
+                <a class="nav-link" href="#principal">Principal</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#section2">Sobre</a>
+                <a class="nav-link" href="#sobre">Sobre</a>
             </li>
         </ul>
     </nav>
     <div class="container-fluid">
-        <main class="pb-5">
-            <section class="custom-section">
+        <main>
+            <section id="principal" class="custom-section">
                 <h1>Bem-vindo ao Curso de Pós-Graduação Lato Sensu em Desenvolvimento Web</h1>
                 <p>
                     O curso de Pós-Graduação Lato Sensu em Desenvolvimento Web foi projetado para capacitar profissionais nas mais modernas tecnologias e metodologias de criação e manutenção de sites e aplicativos para a internet. O programa abrange uma ampla gama de tópicos, incluindo:
@@ -46,10 +46,13 @@
                     Ao final do curso, os alunos estarão aptos a desenvolver soluções web robustas e escaláveis, utilizando as melhores práticas do mercado. Este curso é uma excelente oportunidade para quem busca uma carreira dinâmica e em constante evolução na área de tecnologia.
                 </p>
             </section>
+            <section id="sobre" class="custom-section">
+                <h2>Sobre</h2>
+                <p>Sou estudante de Pós-Graduação na Instituição Federal Sul de Minas.</p>
+                <span class="shadow-sm p-3 mb-5 bg-white rounded">Fernando Souza Cardoso</span>
+            </section>
             <section>
-                <p>
-                    Tecnologia Usada
-                </p>
+                <h2>Tecnologia Usada</h2>
                 <hr class="border border-danger border-2 opacity-50">
                 <div class="d-flex justify-content-around mb-2">
                     <button title="Mostrar/Esconder Conceito de HTML" class="btn btn-info" type="button" data-toggle="collapse" data-target="#htmlConcept" aria-expanded="false" aria-controls="htmlConcept">
@@ -78,21 +81,15 @@
                     </div>
                 </div>
             </section>
-            <section id="section2">
-                <hr class="border border-danger border-2 opacity-50">
-                <p>Sou estudante de Pos Graduação na Instituição Federal Sul de Minas.</p>
-                <span class="shadow-sm p-3 mb-5 bg-white rounded">Fernando Souza Cardoso</span>
-            </section>
         </main>
     </div>
-    <footer class="footer mt-auto py-3 bg-light">
-        <div class="container text-center">
-            <span>&copy; Fernando Souza Cardoso</span>
-            <a href="https://github.com/souzanandodev" target="_blank" style="color: black; text-decoration: none;"> 
-                <i class="fa fa-github" style="font-size:36px"></i>
-            </a>
-            <div id="datetime" class="text-right p-2"></div>
-        </div>
+    <footer class="text-center mt-4"> 
+        <hr>
+        &copy; Fernando Souza Cardoso 
+        <a href="https://github.com/souzanandodev" target="_blank" style="color: black; text-decoration: none;"> 
+            <i class="fa fa-github" style="font-size:36px"></i> 
+        </a> 
+        <div id="datetime" class="text-right p-2"></div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
