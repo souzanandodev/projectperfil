@@ -1,6 +1,9 @@
 body {
     margin: 0;
     font-family: Tahoma, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 header {
     background-color: #FC6B61;
@@ -49,14 +52,4 @@ li.custom-list-item {
     padding: 20px;
     background-color: #f8f9fa;
     border-radius: 5px;
-    margin-bottom: 20px;
-    text-align: justify;
-}
-footer {
-    position: fixed;
-    bottom: 0;
-    background-color: gray;
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-}
+    margin
